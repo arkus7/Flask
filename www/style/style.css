@@ -46,3 +46,65 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* END OF RESET */
+
+#logo {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#subjects {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#chemistry, #physics {
+	background-color: #1D9125;
+	min-width: 42%;
+	padding: 4%;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+#chemistry {
+	float: left;
+	background-color: #00B300;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+#physics {
+	float: right;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+#lessons {
+	clear: both;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.lesson-1, .lesson-2 {
+	border-radius: 100px;
+	background-color: #ede;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#options {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 20%;
+	border-radius: 100px;
+	background-color: #ede;
+	text-align: center;
+	padding: 3%;
+}
