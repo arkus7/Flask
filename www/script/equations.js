@@ -20,6 +20,12 @@ var equations = [
     right: ["NaOH", [1, 1, 1], "H20", [0, 1, 2]]
   },
   {
+    // Fe, O2 : 2Fe2O3
+    // Fe O
+    left: ["Fe", [1, 0], "O2", [0,2]],
+    right: ["Fe2O3", [2, 3]]
+  },
+  {
     // Na2CO3, H3PO4 : Na3PO4, H2O, CO2
     // Na C O H P
     left: ["Na2CO3", [2, 1, 3, 0, 0], "H3PO4", [0, 0, 4, 3, 1]],
