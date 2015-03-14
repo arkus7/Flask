@@ -1,0 +1,7 @@
+Czym jest skala pH? Jest to ilościowa skala kwasowości i zasadowości roztworów wodnych związków chemicznych. 
+Oparta jest ona na stężeniu jonów wodorkowych [H+] w roztworach wodnych. Dokładnie jest to: 
+pH = -log10[H+]
+czyli minus logarytm dziesiętny ze stężenia jonów wodorkowych wyrażonych w molach na litr. 
+Jeśli pH>7 to roztwór ma odczyn zasadowy, jeżeli natomiast pH<7 to odczyn jest kwasowy. Gdy pH = 7 to mówimy, że roztwór jest obojętny.
+
+Substancje otaczające nas na co dzień mają różne odczyny. Ten eksperyment pozawala na sprawdzenie pH rzeczy codziennego użytku, a także jak ich pH wpływają na siebie. 
