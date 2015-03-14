@@ -72,9 +72,9 @@ body {
 	background-color: #1D9125;
 	min-width: 42%;
 	padding: 4%;
-	font-size: 20px;
+	font-size: 24px;
 	color: white;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 #chemistry {
@@ -90,18 +90,40 @@ body {
 	border-bottom-right-radius: 100px;
 }
 
-#lessons {
+#lessons-chemistry {
 	clear: both;
+	position: relative;
 	font-size: 16px;
 	padding: 5px;
 }
 
-.lesson-1, .lesson-2 {
+#lessons-physics {
+	position: relative;
+	top: -255px;
+}
+
+.lesson-1, .lesson-2, .lesson-3 {
 	border-radius: 100px;
 	background-color: #ede;
 	text-align: center;
 	margin-bottom: 10px;
-	padding: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.lesson-2 {
+	background-image: url("../../tmp/icon.png");
+	background-position: right;
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+
+.lesson-3 {
+	background-image: url("../../tmp/locked.png");
+	background-position: right;
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-color: #888;
 }
 
 #options {
