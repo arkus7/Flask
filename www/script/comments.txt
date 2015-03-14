@@ -16,3 +16,8 @@
   c) Wspaniale!
   d) Oby tak dalej!
   e) Tak trzymaj!
+  
+PRZYCISKI:
+  a) Niestety musisz jeszcze powtórzyć. Wróć do początku lekcji.
+  b) Przyda Ci się trochę więcej ćwiczeń. Przerób zadania ponownie.
+  c) Poszło Ci rewelacyjnie! Lekcja zaliczona!
