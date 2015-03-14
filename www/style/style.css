@@ -226,6 +226,10 @@ input[type="number"].focus {
 	color: white;
 }
 
+.good-answer, .medium-answer, .bad-answer {
+	border-style: solid;
+}
+
 .good-answer {
 	border: 3px solid green;
 }
