@@ -103,7 +103,7 @@ var equations = [
     //Al(OH)3, H2SO4 : Al2(SO4)3, H2O
     //Al O H S
     left: ["Al(OH)3", [1,3,3,0], "H2SO4", [0,4,2,1]],
-    right: [ "Al2(SO4)3", [2,12,0,4], "H20", [0,1,2,0]]
+    right: [ "Al2(SO4)3", [2,12,0,3], "H20", [0,1,2,0]]
   },
   {
     //K2S2O7, Cr2O3 : K2SO4, Cr2(SO4)3
