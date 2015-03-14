@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2480px" height="3508px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 2480 3507"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="768px" height="144px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 768 144"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <font id="FontID1" horiz-adv-x="666" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+  <font id="FontID1" horiz-adv-x="666" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
 	<font-face 
 		font-family="Arial">
 	</font-face>
@@ -32,16 +32,16 @@ viewBox="0 0 2480 3507"
    <![CDATA[
     @font-face { font-family:"Arial";src:url("#FontID1") format(svg)}
     @font-face { font-family:"Lato";src:url("#FontID0") format(svg)}
-    .str1 {stroke:black;stroke-width:11.8095}
-    .str0 {stroke:black;stroke-width:2.3619}
+    .str1 {stroke:black;stroke-width:11.8111}
+    .str0 {stroke:black;stroke-width:2.36221}
     .fil2 {fill:none}
     .fil1 {fill:black}
     .fil0 {fill:url(#id0)}
-    .fnt1 {font-weight:normal;font-size:35.7073px;font-family:'Arial'}
-    .fnt0 {font-weight:normal;font-size:35.7073px;font-family:'Lato'}
+    .fnt1 {font-weight:normal;font-size:35.7119px;font-family:'Arial'}
+    .fnt0 {font-weight:normal;font-size:35.7119px;font-family:'Lato'}
    ]]>
   </style>
-  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="205.851" y1="1019.14" x2="973.753" y2="1019.14">
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="-2.36576" y1="54.7998" x2="765.639" y2="54.7998">
    <stop offset="0" style="stop-opacity:1; stop-color:#C4006B"/>
    <stop offset="0.0705882" style="stop-opacity:1; stop-color:#C3003F"/>
    <stop offset="0.14902" style="stop-opacity:1; stop-color:#C30D21"/>
@@ -61,94 +61,96 @@ viewBox="0 0 2480 3507"
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <polygon class="fil0 str0" points="206,1072 974,1072 974,967 206,967 "/>
-  <g transform="matrix(0.657853 0 0 1 -592.538 -650.113)">
-   <text x="1240" y="1754"  class="fil1 fnt0">0</text>
-  </g>
-  <g id="_695796689792">
-   <line class="fil2 str1" x1="515" y1="1071" x2="515" y2= "1093" />
-  </g>
-  <g id="_695796690784">
-   <line class="fil2 str1" x1="463" y1="1071" x2="463" y2= "1093" />
-  </g>
-  <g id="_695796687744">
-   <line class="fil2 str1" x1="411" y1="1071" x2="411" y2= "1093" />
-  </g>
-  <g id="_695796687328">
-   <line class="fil2 str1" x1="359" y1="1071" x2="359" y2= "1093" />
-  </g>
-  <g id="_695796687360">
-   <line class="fil2 str1" x1="308" y1="1071" x2="308" y2= "1092" />
-  </g>
-  <g id="_695796686752">
-   <line class="fil2 str1" x1="256" y1="1071" x2="256" y2= "1093" />
-  </g>
-  <g id="_695796686432">
-   <line class="fil2 str1" x1="670" y1="1071" x2="670" y2= "1093" />
-  </g>
-  <g id="_695796687200">
-   <line class="fil2 str1" x1="618" y1="1071" x2="618" y2= "1093" />
-  </g>
-  <g id="_695796686144">
-   <line class="fil2 str1" x1="567" y1="1071" x2="567" y2= "1093" />
-  </g>
-  <g id="_695796683296">
-   <line class="fil2 str1" x1="882" y1="1071" x2="882" y2= "1093" />
-  </g>
-  <g id="_695796684608">
-   <line class="fil2 str1" x1="826" y1="1071" x2="826" y2= "1093" />
-  </g>
-  <g id="_695796684000">
-   <line class="fil2 str1" x1="774" y1="1071" x2="774" y2= "1093" />
-  </g>
-  <g id="_695796681536">
-   <line class="fil2 str1" x1="722" y1="1071" x2="722" y2= "1093" />
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -540.785 -650.057)">
-   <text x="1240" y="1754"  class="fil1 fnt1">1</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -488.144 -650.057)">
-   <text x="1240" y="1754"  class="fil1 fnt1">2</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -436.908 -650.619)">
-   <text x="1240" y="1754"  class="fil1 fnt1">3</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -386.82 -650.45)">
-   <text x="1240" y="1754"  class="fil1 fnt1">4</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -333.217 -650.788)">
-   <text x="1240" y="1754"  class="fil1 fnt1">5</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -281.241 -650.282)">
-   <text x="1240" y="1754"  class="fil1 fnt1">6</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -229.673 -651.181)">
-   <text x="1240" y="1754"  class="fil1 fnt1">7</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -178.142 -650.282)">
-   <text x="1240" y="1754"  class="fil1 fnt1">8</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -125.871 -650.619)">
-   <text x="1240" y="1754"  class="fil1 fnt1">9</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -80.4801 -650.619)">
-   <text x="1240" y="1754"  class="fil1 fnt1">10</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 -28.2829 -650.675)">
-   <text x="1240" y="1754"  class="fil1 fnt1">11</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 23.3229 -650.394)">
-   <text x="1240" y="1754"  class="fil1 fnt1">12</text>
-  </g>
-  <g transform="matrix(0.657853 0 0 1 81.3647 -649.832)">
-   <text x="1240" y="1754"  class="fil1 fnt1">13</text>
-  </g>
-  <g id="_695796676736">
-   <line class="fil2 str1" x1="937" y1="1072" x2="937" y2= "1093" />
-  </g>
-  <g id="_562849439760">
-   <g transform="matrix(0.699699 0 0 1 75.4265 -650.098)">
-    <text x="1240" y="1754"  class="fil1 fnt1">14</text>
+  <g id="_562845449232">
+   <polygon class="fil0 str0" points="-2,107 766,107 766,2 -2,2 "/>
+   <g transform="matrix(0.657855 0 0 1 -237.631 67.3042)">
+    <text x="384" y="72"  class="fil1 fnt0">0</text>
+   </g>
+   <g id="_695796689792">
+    <line class="fil2 str1" x1="307" y1="107" x2="307" y2= "129" />
+   </g>
+   <g id="_695796690784">
+    <line class="fil2 str1" x1="255" y1="107" x2="255" y2= "129" />
+   </g>
+   <g id="_695796687744">
+    <line class="fil2 str1" x1="203" y1="107" x2="203" y2= "128" />
+   </g>
+   <g id="_695796687328">
+    <line class="fil2 str1" x1="151" y1="107" x2="151" y2= "129" />
+   </g>
+   <g id="_695796687360">
+    <line class="fil2 str1" x1="99" y1="107" x2="99" y2= "128" />
+   </g>
+   <g id="_695796686752">
+    <line class="fil2 str1" x1="48" y1="107" x2="48" y2= "128" />
+   </g>
+   <g id="_695796686432">
+    <line class="fil2 str1" x1="462" y1="107" x2="462" y2= "128" />
+   </g>
+   <g id="_695796687200">
+    <line class="fil2 str1" x1="410" y1="107" x2="410" y2= "128" />
+   </g>
+   <g id="_695796686144">
+    <line class="fil2 str1" x1="359" y1="107" x2="359" y2= "129" />
+   </g>
+   <g id="_695796683296">
+    <line class="fil2 str1" x1="674" y1="107" x2="674" y2= "128" />
+   </g>
+   <g id="_695796684608">
+    <line class="fil2 str1" x1="617" y1="107" x2="617" y2= "128" />
+   </g>
+   <g id="_695796684000">
+    <line class="fil2 str1" x1="566" y1="107" x2="566" y2= "128" />
+   </g>
+   <g id="_695796681536">
+    <line class="fil2 str1" x1="514" y1="107" x2="514" y2= "128" />
+   </g>
+   <g transform="matrix(0.657855 0 0 1 -185.87 67.3605)">
+    <text x="384" y="72"  class="fil1 fnt1">1</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 -133.222 67.3605)">
+    <text x="384" y="72"  class="fil1 fnt1">2</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 -81.98 66.7981)">
+    <text x="384" y="72"  class="fil1 fnt1">3</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 -31.8847 66.9668)">
+    <text x="384" y="72"  class="fil1 fnt1">4</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 21.7254 66.6293)">
+    <text x="384" y="72"  class="fil1 fnt1">5</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 73.708 67.1355)">
+    <text x="384" y="72"  class="fil1 fnt1">6</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 125.283 66.2356)">
+    <text x="384" y="72"  class="fil1 fnt1">7</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 176.821 67.1355)">
+    <text x="384" y="72"  class="fil1 fnt1">8</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 229.099 66.7981)">
+    <text x="384" y="72"  class="fil1 fnt1">9</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 274.496 66.7981)">
+    <text x="384" y="72"  class="fil1 fnt1">10</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 326.7 66.7418)">
+    <text x="384" y="72"  class="fil1 fnt1">11</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 378.312 67.023)">
+    <text x="384" y="72"  class="fil1 fnt1">12</text>
+   </g>
+   <g transform="matrix(0.657855 0 0 1 436.362 67.5854)">
+    <text x="384" y="72"  class="fil1 fnt1">13</text>
+   </g>
+   <g id="_695796676736">
+    <line class="fil2 str1" x1="729" y1="108" x2="729" y2= "129" />
+   </g>
+   <g>
+    <g transform="matrix(0.699702 0 0 1 466.25 67.3188)">
+     <text x="384" y="72"  class="fil1 fnt1">14</text>
+    </g>
    </g>
   </g>
  </g>
