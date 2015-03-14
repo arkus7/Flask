@@ -184,7 +184,7 @@ var generateHTML = function() {
     result += '<div class="task" id="d' + ids[i] + '">' + generateTask(ids[i]) + '<p>&nbsp;</p></div>';
   }
   document.getElementById("exercises").innerHTML = result;
-  document.getElementById("button").innerHTML = '<button class="btn">Sprawdź</button>';
+  document.getElementById("button").innerHTML = '<div class="btn">Sprawdź</div>';
 }
 
 generateHTML();

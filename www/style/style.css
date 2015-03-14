@@ -228,6 +228,7 @@ input[type="number"].focus {
 	color: white;
 	width: 100%;
 	min-height: 60px;
+	line-height: 60px;
 }
 
 .good-answer {
@@ -259,24 +260,45 @@ input[type="number"].focus {
 }
 
 #buttons {
+	/*margin-top: 20px;
 	min-height: 50px;
 	width: 100%;
-	background-color: navy;
+	background-color: navy;*/
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 #back {
-	padding: 10px;
-	width: 30%;
 	float: left;
-	margin: 0 auto;
+	background-color: navy;
+	width: 30%;
+	text-align: center;
+	min-height: 50px;
 }
 
 #next {
 	float: left;
+	background-color: navy;
+	width: 69.4%;
+	text-align: center;
+	border-left: 2px dotted white;
+	min-height: 50px;
+}
+
+#next img {
+	padding-top: 10px;
+}
+
+#back img {
+	padding-top: 10px;
+}
+
+.center {
+	text-align: center;
 	padding: 10px;
-	width: 20%;
-	border-left: 2px white dotted;
-	margin: 0 auto;
+	font-weight: bold;
 }
 
 .task {
