@@ -1,0 +1,12 @@
+1. ZŁA ODPOWIEDZ:
+  a) Niestety, odpowiedź nieprawidłowa.
+  b) Tym razem się nie powiodło. Spróbuj ponownie.
+  
+2. DOBRA NIEOPTYMALNA:
+  a) Dobrze, ale niepotrzebnie marnujesz odczynniki.
+  b) Świetnie, ale czy nie za dużo odczynników?
+  
+3. DOBRA OPTYMALNA:
+  a) Świetnie sobie radzisz!
+  b) Genialnie!
+  c) Wspaniale!
