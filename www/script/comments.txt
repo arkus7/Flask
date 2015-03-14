@@ -1,12 +1,15 @@
 1. ZŁA ODPOWIEDZ:
   a) Niestety, odpowiedź nieprawidłowa.
   b) Tym razem się nie powiodło. Spróbuj ponownie.
+  c) Przelicz jeszcze raz i w końcu się uda!
   
 2. DOBRA NIEOPTYMALNA:
   a) Dobrze, ale niepotrzebnie marnujesz odczynniki.
   b) Świetnie, ale czy nie za dużo odczynników?
+  c) Nie tak rozrzutnie z odczynnikami, a będzie idealnie!
   
 3. DOBRA OPTYMALNA:
   a) Świetnie sobie radzisz!
   b) Genialnie!
   c) Wspaniale!
+  d) Oby tak dalej!
