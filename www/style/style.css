@@ -49,6 +49,10 @@ table {
 
 /* END OF RESET */
 
+body {
+		font-family: 'Lato', sans-serif;
+}
+
 #logo {
 	font-size: 36px;
 	text-align: center;
@@ -107,4 +111,66 @@ table {
 	background-color: #ede;
 	text-align: center;
 	padding: 3%;
+}
+
+#continue {
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 100px;
+	background-color: #00A0B3;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	padding: 3%;
+}
+
+#lesson-container {
+	width: 300%;
+}
+
+.panel {
+	width: 30%;
+	min-height: 200px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.panel h2 {
+	font-size: 32px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-variant: small-caps;
+	color: green;
+	font-weight: bold;
+}
+
+.panel p {
+	text-indent: 7%;
+	text-align: justify;
+}
+
+.formula {
+	text-align: center;
+	padding: 10px 0px;
+	color: navy;
+}
+
+.formula sub {
+	vertical-align: sub;
+	font-size: 14px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a {
+	color: green;
+	text-decoration: none;
 }
