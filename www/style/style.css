@@ -288,3 +288,7 @@ input[type="number"].focus {
 	text-align: center;
 	margin: 0 auto;
 }
+
+input[type=button] {
+	padding: 0;
+}
