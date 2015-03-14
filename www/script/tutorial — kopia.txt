@@ -2,7 +2,7 @@
 
 P4, 5 O2 : P4O10
 Aby otrzymać ten związek, potrzebujemy 4 atomy fosforu i 10 atomów tlenu. Ponieważ mamy czteroatomową cząteczkę fosforu, to więcej go nie potrzebujemy. 
-Natomiast, aby 
+Natomiast, aby uzyskać 10 atomów tlenu, musimy wziąć do syntezy 5 dwuatomowych cząsteczek tlenu.
 
 6 S, 4 Al : Al2S3
 Aby otrzymać ten związek, potrzebujemy 2 atomy glinu i 3 atomy siarki. Odpowiedź powyżej jest poprawna (wielokrotności prawidłowej odpowiedzi), lecz nie jest optymalna. 
