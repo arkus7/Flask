@@ -5,7 +5,8 @@ var equations = [
     // NaOH, H2SO4 : Na2SO4, H2O
     // Na O H S
     left: ["NaOH", [1, 1, 1, 0], "H<sub>2</sub>SO<sub>4</sub>", [0, 4, 2, 1]],
-    right: ["Na<sub>2</sub>SO<sub>4</sub>", [2, 4, 0, 1], "H<sub>2</sub>0", [0, 1, 2, 0]]
+    right: ["Na<sub>2</sub>SO<sub>4</sub>", [2, 4, 0, 1], "H<sub>2</sub>0", [0, 1, 2, 0]],
+    correct: [2, 1, 1, 2]
   },
   {
     // Na, H2O : NaOH, H2
@@ -164,14 +165,14 @@ var generateTask = function(id) {
     if(i != 0) {
       result += " + ";
     }
-    result += '<input type="number" id="' + id + i / 2 + '" min="1" max="20">' + equations[id].left[i];
+    result += '<input value="1" type="number" id="' + id + i / 2 + '" min="1" max="20">' + equations[id].left[i];
   }
   result += ' <img src="../../../img/strzalka.svg" height="15"> ';
   for(var i = 0; i < equations[id].right.length; i += 2) {
     if(i != 0) {
       result += " + ";
     }
-    result += '<input type="number" id="' + id + (equations[id].left.length + i) / 2 + '" min="1" max="20">' + equations[id].right[i];
+    result += '<input value="1" type="number" id="' + id + (equations[id].left.length + i) / 2 + '" min="1" max="20">' + equations[id].right[i];
   }
   result += '</div>';
   return result;
@@ -184,7 +185,50 @@ var generateHTML = function() {
     result += '<div class="task" id="d' + ids[i] + '">' + generateTask(ids[i]) + '<p>&nbsp;</p></div>';
   }
   document.getElementById("exercises").innerHTML = result;
-  document.getElementById("button").innerHTML = '<div class="btn">Sprawdź</div>';
+}
+
+var res = [
+  [
+    "Tym razem się  nie powiodło. Spróbuj ponownie.",
+    "Przelicz jeszcze raz i w końcu się uda!",
+    "Nie poddawaj się! Zastanów się nad tym raz jeszcze."
+  ],
+  [
+    "Dobrze, ale niepotrzebnie marnujesz odczynniki.",
+    "Świetnie, ale czy nie za dużo odczynników?",
+    "Nie tak rozrzutnie z odczynnikami, a będzie idealnie!"
+  ],
+  [
+    "Świetnie sobie radzisz",
+    "Genialnie!",
+    "Wspaniale!",
+    "Oby tak dalej!",
+    "Tak trzymaj!"
+  ]
+];
+
+var validate = function() {
+  // po wszystkich zadaniach
+  for(var i = 0; i < ids.length; i++) {
+    var evArray = [];
+    var numberOfElements = equations[ids[i]].left[1].length;
+    for(var j = 0; j < numberOfElements; j++) {
+      evArray[j] = 0;
+    }
+    // po wszystkich zwiazkach lewych z danego zadania
+    for(var j = 0; j < equations[ids[i]].left.length / 2; j++) {
+      var id = "" + ids[i] + j;
+      var multiplier =  parseInt(document.getElementById(id).value, 10);
+      for(var k = 0; k < numberOfElements; k++) {
+        evArray[k] += multiplier +
+      }
+
+    }
+  }
+}
+
+document.getElementById("button").onclick = function() {
+  validate();
 }
 
 generateHTML();
