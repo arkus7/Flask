@@ -60,7 +60,7 @@ var equations = [
   {
     //C2H6, O2 : CO, H2O
     //C H O
-    left: ["C2H6", [ 2,6,0], "O2", [0,0,2]],
+    left: ["C2H6", [2,6,0], "O2", [0,0,2]],
     right: ["CO", [1,0,1], "H2O", [0,2,1]]
   },
   {
@@ -96,7 +96,7 @@ var equations = [
   {
     //Al(OH)3, HNO3 : Al(NO)3, H2O
     //Al O H N
-    left: ["AL(OH)3", [1,3,3,0], "HNO3", [0,3,1,1]],
+    left: ["Al(OH)3", [1,3,3,0], "HNO3", [0,3,1,1]],
     right: ["Al(NO)3", [1,3,0,3], "H2O", [0,1,2,0]]
   },
   {
