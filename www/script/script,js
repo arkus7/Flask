@@ -1,4 +1,13 @@
-var ph = function(cola, sok, piwo, mydlo, woda_morska, wybielacz, woda) {
-  var total = cola + sok + piwo + mydlo + woda_morska + wybielacz + woda;
-  return (cola * 2.5 + sok * 3.5 + piwo * 4.5 + mydlo * 10.0 + woda_morska * 8.0 + wybielacz * 13.5 + woda * 7.0) / total;
+var ph_value = function(coca_cola, orange_juice, beer, soap, sea_water, bleach, water) {
+  var total = coca_cola + orange_juice + beer + soap + sea_water + bleach + water;
+  return (coca_cola * 2.5 + orange_juice * 3.5 + beer * 4.5 + soap * 10.0 + sea_water * 8.0 + bleach * 13.5 + water * 7.0) / total;
+}
+
+var ph_color = function(coca_cola, orange_juice, beer, soap, sea_water, bleach, water) {
+  var total = coca_cola + orange_juice + beer + soap + sea_water + bleach + water;
+  var r = (coca_cola * 15 + orange_juice * 255 + beer * 255 + soap * 255 + sea_water * 0 + bleach * 244 + water * 132) / total;
+  var g = (coca_cola * 0 + orange_juice * 187 + beer * 189 + soap * 223 + sea_water * 124 + bleach * 255 + water * 138) / total;
+  var b = (coca_cola * 0 + orange_juice * 28 + beer * 28 + soap * 116 + sea_water * 97 + bleach * 255 + water * 255) / total;
+  var a = (coca_cola * 0.9 + orange_juice * 1 + beer * 0.6 + soap * 1 + sea_water * 0.3 + bleach * 0.9 + water * 0.2) / total;
+  return [r, g, b, a];
 }
