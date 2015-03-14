@@ -127,13 +127,7 @@ body {
 	padding: 3%;
 }
 
-#lesson-container {
-	width: 300%;
-}
-
 .panel {
-	float: left;
-	width: 31%;
 	padding: 10px;
 	font-size: 20px;
 }
@@ -144,7 +138,7 @@ body {
 	padding: 10px;
 	margin-bottom: 10px;
 	font-variant: small-caps;
-	color: green;
+	color: navy;
 	font-weight: bold;
 }
 
@@ -156,7 +150,6 @@ body {
 .formula {
 	text-align: center;
 	padding: 10px 0px;
-	color: navy;
 }
 
 .formula sub {
@@ -173,15 +166,61 @@ strong {
 }
 
 a {
-	color: green;
+	color: navy;
 	font-style: italic;
 	text-decoration: none;
 }
 
-#lesson {
-	float: left;
-	width: 33%;
-	height: 100%;
-	background-image: url("../img/kolba_1.svg"); 
-	background-size: cover;
+input[type="number"] {
+  padding: 10px;
+  border: solid 3px #c9c9c9;
+  transition: border 0.3s;
+  width: 50px;
+  font-size: 18px;
+}
+
+input[type="number"]:focus,
+input[type="number"].focus {
+  border: solid 3px #969696;
+}
+
+.good-answer, .medium-answer, .bad-answer, .btn,
+.btn-good, .btn-medium, .btn-bad  {
+	padding: 5px;
+	text-align: center;
+	font-size: 18px;
+	margin: 10px auto;
+	background: transparent;
+}
+
+.btn, .btn-good, .btn-medium, .btn-bad {
+	color: white;
+}
+
+.good-answer {
+	border: 3px solid green;
+}
+
+.medium-answer {
+	border: 3px solid #FF8800;
+}
+
+.bad-answer {
+	border: 3px solid red;
+}
+
+.btn-good {
+	background-color: green;
+}
+
+.btn-medium {
+	background-color: #FF8800;
+}
+
+.btn-bad {
+	background-color: red;
+}
+
+.btn {
+	background-color: navy;
 }
