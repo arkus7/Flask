@@ -203,7 +203,8 @@ input[type="number"] {
   padding: 10px;
   border: solid 3px #c9c9c9;
   transition: border 0.3s;
-  width: 50px;
+  width: 30px;
+  height: 20px;
   font-size: 18px;
 }
 
@@ -275,5 +276,10 @@ input[type="number"].focus {
 }
 
 .task {
-	
+	font-size: 18px;
+}
+
+.task p {
+	border-bottom: 2px solid gray;
+	padding-bottom: 2px;
 }
