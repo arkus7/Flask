@@ -130,7 +130,7 @@ body {
 .panel {
 	padding: 10px;
 	font-size: 20px;
-	border-top: 20px solid navy;
+	border-top: 10px solid navy;
 }
 
 .panel h2 {
