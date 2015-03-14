@@ -143,3 +143,17 @@ var equations = [
   }
 
 ];
+
+var getRandomQuestions = function() {
+  var result = [];
+  for(var i = 0; i < 22; i++) {
+    result[i] = i + 1;
+  }
+  for(var i = 0; i < 22; i++) {
+    var position = Math.floor(Math.random() * 22);
+    var temp = result[position];
+    result[position] = result[i];
+    result[i] = temp;
+  }
+  return result.slice(0, 5);
+}
