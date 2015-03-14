@@ -50,12 +50,12 @@ table {
 /* END OF RESET */
 
 body {
-		font-family: 'Lato', sans-serif;
 		background-image: url("../img/kratki.svg");
 		background-repeat: repeat;
+		font-family: sans-serif;
 }
 
-#logo {
+#logo, #small-logo {
 	font-size: 36px;
 	text-align: center;
 	margin-bottom: 20px;
@@ -63,7 +63,13 @@ body {
 }
 
 #logo img {
-	height: 350px;
+	height: 400px;
+	padding-bottom: 50px;
+}
+
+#small-logo img {
+	height: 200px;
+	padding-bottom: 20px;
 }
 
 #subjects {
@@ -179,10 +185,16 @@ body {
 .formula {
 	text-align: center;
 	padding: 10px 0px;
+	font-weight: bold;
 }
 
-.formula sub {
+sub {
 	vertical-align: sub;
+	font-size: 14px;
+}
+
+sup {
+	vertical-align: super;
 	font-size: 14px;
 }
 
@@ -261,10 +273,6 @@ input[type="number"].focus {
 }
 
 #buttons {
-	/*margin-top: 20px;
-	min-height: 50px;
-	width: 100%;
-	background-color: navy;*/
 	width:100%;
 	position:absolute;
 	bottom:0;
@@ -314,4 +322,8 @@ input[type="number"].focus {
 
 input[type=button] {
 	padding: 0;
+}
+
+#flask img {
+	height: 450px;
 }
