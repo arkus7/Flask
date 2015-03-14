@@ -130,6 +130,7 @@ body {
 .panel {
 	padding: 10px;
 	font-size: 20px;
+	border-top: 20px solid navy;
 }
 
 .panel h2 {
@@ -223,4 +224,25 @@ input[type="number"].focus {
 
 .btn {
 	background-color: navy;
+}
+
+#buttons {
+	min-height: 50px;
+	width: 100%;
+	background-color: navy;
+}
+
+#back {
+	padding: 10px;
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+}
+
+#next {
+	float: left;
+	padding: 10px;
+	width: 20%;
+	border-left: 2px white dotted;
+	margin: 0 auto;
 }
