@@ -183,7 +183,8 @@ var generateHTML = function() {
   for(var i = 0; i < ids.length; i++) {
     result += '<div class="task" id="d' + ids[i] + '">' + generateTask(ids[i]) + '<p>&nbsp;</p></div>';
   }
-  document.getElementById("quiz").innerHTML = result;
+  document.getElementById("exercises").innerHTML = result;
+  document.getElementById("button").innerHTML = '<button class="btn">Sprawdź</button>';
 }
 
 generateHTML();
