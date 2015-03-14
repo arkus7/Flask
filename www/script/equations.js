@@ -138,7 +138,7 @@ var equations = [
   {
     //BaO, H3PO4 : Ba3(PO4)2, H2O
     //Ba O H P
-    left: ["BaO", [ 1,2,0,0], "H3PO4",[0,4,3,1]],
+    left: ["BaO", [1,1,0,0], "H3PO4",[0,4,3,1]],
     right: ["Ba3(PO4)2", [3,8,0,2], "H2O", [0,1,2,0]]
   }
 
