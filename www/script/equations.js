@@ -1,3 +1,5 @@
+var ids;
+
 var equations = [
   {
     // NaOH, H2SO4 : Na2SO4, H2O
@@ -9,7 +11,7 @@ var equations = [
     // Na, H2O : NaOH, H2
     // Na O H
     left: ["Na", [1, 0, 0], "H<sub>2</sub>O", [0, 1, 2]],
-    right: ["NaOH", [1, 1, 1], "H<sub>2</sub>0", [0, 1, 2]]
+    right: ["NaOH", [1, 1, 1], "H<sub>2</sub>O", [0, 1, 2]]
   },
   {
     // Fe, O2 : 2Fe2O3
@@ -21,7 +23,7 @@ var equations = [
     // Na2CO3, H3PO4 : Na3PO4, H2O, CO2
     // Na C O H P
     left: ["Na<sub>2</sub>CO<sub>3</sub>", [2, 1, 3, 0, 0], "H<sub>3</sub>PO<sub>4</sub>", [0, 0, 4, 3, 1]],
-    right: ["Na<sub>3</sub>PO<sub>4</sub>", [3, 0, 4, 0, 1], "H<sub>2</sub>0", [0, 0, 1, 2, 0], "CO<sub>2</sub>", [0, 1, 2, 0, 0]]
+    right: ["Na<sub>3</sub>PO<sub>4</sub>", [3, 0, 4, 0, 1], "H<sub>2</sub>O", [0, 0, 1, 2, 0], "CO<sub>2</sub>", [0, 1, 2, 0, 0]]
   },
   {
     // Ca(OH)2, HCl : CaCl2, H2O
@@ -176,12 +178,12 @@ var generateTask = function(id) {
 };
 
 var generateHTML = function() {
-  var ids = getRandomQuestions();
+  ids = getRandomQuestions();
   var result = "";
   for(var i = 0; i < ids.length; i++) {
-    result += '<div class="task">' + generateTask(ids[i]) + '<p>&nbsp;</p></div>';
+    result += '<div class="task" id="d' + ids[i] + '">' + generateTask(ids[i]) + '<p>&nbsp;</p></div>';
   }
-  document.getElementById("excercises").innerHTML = result;
+  document.getElementById("quiz").innerHTML = result;
 }
 
 generateHTML();
