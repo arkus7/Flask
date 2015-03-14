@@ -213,8 +213,7 @@ input[type="number"].focus {
   border: solid 3px #969696;
 }
 
-.good-answer, .medium-answer, .bad-answer, .btn,
-.btn-good, .btn-medium, .btn-bad  {
+.good-answer, .medium-answer, .bad-answer{
 	padding: 5px;
 	text-align: center;
 	font-size: 18px;
@@ -223,8 +222,12 @@ input[type="number"].focus {
 }
 
 .btn, .btn-good, .btn-medium, .btn-bad {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
 	color: white;
 	width: 100%;
+	min-height: 60px;
 }
 
 .good-answer {
