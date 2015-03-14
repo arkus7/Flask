@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="330px" height="330px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 330 330"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Arial">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="e" horiz-adv-x="556"><path d="M420 168l90.9991 -11.9999c-14.1666,-52.8327 -40.6659,-93.9994 -79.3332,-123.166 -38.6661,-29.1668 -88.0001,-43.8331 -148.167,-43.8331 -75.6663,0 -135.666,23.3332 -180,69.9996 -44.3327,46.4995 -66.4997,112 -66.4997,196.166 0,87.0008 22.3327,154.667 67.1663,202.666 44.8336,48.1678 103,72.1676 174.5,72.1676 69.1673,0 125.667,-23.5002 169.5,-70.6675 43.8331,-47.1661 65.8331,-113.5 65.8331,-198.999 0,-5.16702 -0.166957,-13.0004 -0.499635,-23.3332l-386.5 0c3.33296,-56.8335 19.3337,-100.5 48.3335,-130.667 28.8329,-30.1661 64.9996,-45.3332 108.166,-45.3332 32.1671,0 59.6668,8.49998 82.3334,25.4999 22.8336,17 40.834,44.167 54.1671,81.4999zm-288 141l288.999 0c-3.8326,43.6674 -14.9989,76.3341 -33.1664,98.1672 -27.8336,33.833 -64.166,50.8329 -108.667,50.8329 -40.3332,0 -74.1661,-13.5 -101.666,-40.5001 -27.334,-27.0001 -42.4999,-63.1667 -45.5002,-108.5z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+    .str0 {stroke:black;stroke-width:3.77953}
+    .fil0 {fill:#2F0245}
+    .fil1 {fill:white}
+    .fnt0 {font-weight:normal;font-size:305.609px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_562782218352">
+   <circle class="fil0 str0" cx="165" cy="163" r="160"/>
+   <text x="81" y="244"  class="fil1 fnt0">e</text>
+  </g>
+ </g>
+</svg>
