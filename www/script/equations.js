@@ -156,7 +156,26 @@ var getRandomQuestions = function() {
   return result.slice(0, 5);
 };
 
-var generateHTML = function() {
+var generateTask = function(id) {
   var result = '<div class="formula">';
-
+  for(var i = 0; i < equations[id].left.length; i += 2) {
+    result += '<input type="number" id="' + i / 2 + '" min="1" max="20">' + equations[id].left[i];
+  }
+  result += ' <img src="../../../img/strzalka.svg" height="15"> ';
+  for(var i = 0; i < equations[id].right.length; i += 2) {
+    result += '<input type="number" id="' + (equations[id].left.length + i) / 2 + '" min="1" max="20">' + equations[id].right[i];
+  }
+  result += '</div>';
+  return result;
 };
+
+var generateHTML = function() {
+  var ids = getRandomQuestions();
+  var result = "";
+  for(var i = 0; i < ids.length; i++) {
+    result += generateTask(ids[i]);
+  }
+  document.getElementById("quiz").innerHTML = result;
+}
+
+generateHTML();
