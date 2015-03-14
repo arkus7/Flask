@@ -159,11 +159,17 @@ var getRandomQuestions = function() {
 var generateTask = function(id) {
   var result = '<div class="formula">';
   for(var i = 0; i < equations[id].left.length; i += 2) {
-    result += '<input type="number" id="' + i / 2 + '" min="1" max="20">' + equations[id].left[i];
+    if(i != 0) {
+      result += " + ";
+    }
+    result += '<input type="number" id="' + id + i / 2 + '" min="1" max="20">' + equations[id].left[i];
   }
   result += ' <img src="../../../img/strzalka.svg" height="15"> ';
   for(var i = 0; i < equations[id].right.length; i += 2) {
-    result += '<input type="number" id="' + (equations[id].left.length + i) / 2 + '" min="1" max="20">' + equations[id].right[i];
+    if(i != 0) {
+      result += " + ";
+    }
+    result += '<input type="number" id="' + id + (equations[id].left.length + i) / 2 + '" min="1" max="20">' + equations[id].right[i];
   }
   result += '</div>';
   return result;
