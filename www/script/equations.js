@@ -12,31 +12,36 @@ var equations = [
     // Na, H2O : NaOH, H2
     // Na O H
     left: ["Na", [1, 0, 0], "H<sub>2</sub>O", [0, 1, 2]],
-    right: ["NaOH", [1, 1, 1], "H<sub>2</sub>O", [0, 1, 2]]
+    right: ["NaOH", [1, 1, 1], "H<sub>2</sub>O", [0, 1, 2]],
+    correct: [2, 2, 2, 1]
   },
   {
-    // Fe, O2 : 2Fe2O3
+    // Fe, O2 : Fe2O3
     // Fe O
     left: ["Fe", [1, 0], "O<sub>2</sub>", [0,2]],
-    right: ["Fe<sub>2</sub>O<sub>3</sub>", [2, 3]]
+    right: ["Fe<sub>2</sub>O<sub>3</sub>", [2, 3]],
+    correct: [4, 3, 2]
   },
   {
     // Na2CO3, H3PO4 : Na3PO4, H2O, CO2
     // Na C O H P
     left: ["Na<sub>2</sub>CO<sub>3</sub>", [2, 1, 3, 0, 0], "H<sub>3</sub>PO<sub>4</sub>", [0, 0, 4, 3, 1]],
-    right: ["Na<sub>3</sub>PO<sub>4</sub>", [3, 0, 4, 0, 1], "H<sub>2</sub>O", [0, 0, 1, 2, 0], "CO<sub>2</sub>", [0, 1, 2, 0, 0]]
+    right: ["Na<sub>3</sub>PO<sub>4</sub>", [3, 0, 4, 0, 1], "H<sub>2</sub>O", [0, 0, 1, 2, 0], "CO<sub>2</sub>", [0, 1, 2, 0, 0]],
+    correct: [3, 2, 2, 3, 3]
   },
   {
     // Ca(OH)2, HCl : CaCl2, H2O
     // Ca O H Cl
     left: ["Ca(OH)<sub>2</sub>", [1, 2, 2, 0], "HCl", [0, 0, 1, 1]],
-    right: ["CaCl<sub>2</sub>", [1, 0, 0, 1], "H<sub>2</sub>O", [0, 1, 2, 0]]
+    right: ["CaCl<sub>2</sub>", [1, 0, 0, 1], "H<sub>2</sub>O", [0, 1, 2, 0]],
+    correct: [1, 2, 1, 2]
   },
   {
     // K3PO4, H2SO4 : K2SO4, H3PO4
     // K P O H S
     left: ["K<sub>3</sub>PO<sub>4</sub>", [3, 1, 4, 0, 0], "H<sub>2</sub>SO<sub>4</sub>", [0, 0, 4, 2, 1]],
-    right: ["K<sub>2</sub>SO<sub>4</sub>", [2, 0, 4, 0, 1], "H<sub>3</sub>PO<sub>4</sub>", [0, 1, 4, 3, 0]]
+    right: ["K<sub>2</sub>SO<sub>4</sub>", [2, 0, 4, 0, 1], "H<sub>3</sub>PO<sub>4</sub>", [0, 1, 4, 3, 0]],
+    correct: [2, 3, 3, 2]
   },
 
   // Shirru
@@ -44,103 +49,120 @@ var equations = [
     //C6H5COOH, O2 : CO2, H2O
     //C H O
     left: ["C<sub>6</sub>H<sub>5</sub>COOH", [7,6,2], "O<sub>2</sub>", [0,0,2]],
-    right: ["CO<sub>2</sub>", [1,0,2], "H<sub>2</sub>O", [0,2,1]]
+    right: ["CO<sub>2</sub>", [1,0,2], "H<sub>2</sub>O", [0,2,1]],
+    correct: [2, 15, 14, 6]
   },
   {
     //Cr, HCl : CrCl3, H2
     //Cr H Cl
     left: ["Cr",[1,0,0], "HCl", [0,1,1]],
-    right: ["CrCl<sub>3</sub>", [1,0,3], "H<sub>2</sub>", [0,2,0]]
+    right: ["CrCl<sub>3</sub>", [1,0,3], "H<sub>2</sub>", [0,2,0]],
+    correct: [2, 6, 2, 3]
   },
   {
     // CH4, O2 : CO2, H2O
     //C H O
     left: ["CH<sub>4</sub>", [1,4,0], "O<sub>2</sub>", [0,0,2]],
-    right: ["CO<sub>2</sub>", [1,0,2], "H<sub>2</sub>O",[0,2,1]]
+    right: ["CO<sub>2</sub>", [1,0,2], "H<sub>2</sub>O",[0,2,1]],
+    correct: [1, 2, 1, 2]
   },
   {
     //C2H6, O2 : CO, H2O
     //C H O
     left: ["C<sub>2</sub>H<sub>6</sub>", [2,6,0], "O<sub>2</sub>", [0,0,2]],
-    right: ["CO", [1,0,1], "H<sub>2</sub>O", [0,2,1]]
+    right: ["CO", [1,0,1], "H<sub>2</sub>O", [0,2,1]],
+    correct: [2, 5, 4, 6]
   },
   {
     //CaO, H3PO4 : Ca3(PO4)2, H2O
     //Ca O H P
     left: ["CaO", [1,1,0,0], "H<sub>3</sub>PO<sub>4</sub>", [0,4,3,1]],
-    right: ["Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>", [3,8,0,2], "H<sub>2</sub>O", [0,1,2,0]]
+    right: ["Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>", [3,8,0,2], "H<sub>2</sub>O", [0,1,2,0]],
+    correct: [3, 2, 1, 3]
   },
   {
     //CaCO3 : CaO, CO2
     //Ca C O
     left: ["CaCO<sub>3</sub>", [1,1,3]],
-    right: ["CaO", [1,0,1], "CO<sub>2</sub>", [0,1,2]]
+    right: ["CaO", [1,0,1], "CO<sub>2</sub>", [0,1,2]],
+    correct: [1, 1, 1]
   },
   {
     //Pb(NO3)2, NaI : PbI2, NaNO3
     //Pb N O I Na
     left: ["Pb(NO<sub>3</sub>)<sub>2</sub>", [1,2,6,0,0], "NaI", [0,0,0,1,1]],
-    right: ["PbI<sub>2</sub>", [1,0,0,1,0], "NaNO<sub>3</sub>", [0,1,3,0,1]]
+    right: ["PbI<sub>2</sub>", [1,0,0,1,0], "NaNO<sub>3</sub>", [0,1,3,0,1]],
+    correct: [1, 2, 1, 2]
   },
   {
     //BaCl2, NaOH : Ba(OH)2, NaCl
     //Ba Cl Na O H
     left: ["BaCl<sub>2</sub>", [1,2,0,0,0], "NaOH", [0,0,1,1,1]],
-    right: ["Ba(OH)<sub>2</sub>", [1,0,0,2,2], "NaCl", [0,1,1,0,0]]
+    right: ["Ba(OH)<sub>2</sub>", [1,0,0,2,2], "NaCl", [0,1,1,0,0]], 
+    correct: [1, 2, 1, 2]
   },
   {
     //KOH, H2S : K2S, H2O
     //K O H S
     left: ["KOH", [1,1,1,0],"H<sub>2</sub>S",[0,0,2,1]],
-    right: ["K<sub>2</sub>S", [2,0,0,1], "H<sub>2</sub>O", [0,1,2,0]]
+    right: ["K<sub>2</sub>S", [2,0,0,1], "H<sub>2</sub>O", [0,1,2,0]],
+    correct: [2, 1, 1, 2]
   },
   {
     //Al(OH)3, HNO3 : Al(NO)3, H2O
     //Al O H N
     left: ["Al(OH)<sub>3</sub>", [1,3,3,0], "HNO<sub>3</sub>", [0,3,1,1]],
-    right: ["Al(NO)<sub>3</sub>", [1,3,0,3], "H<sub>2</sub>O", [0,1,2,0]]
+    right: ["Al(NO)<sub>3</sub>", [1,3,0,3], "H<sub>2</sub>O", [0,1,2,0]],
+    correct: [1, 3, 1, 3]
   },
   {
     //Al(OH)3, H2SO4 : Al2(SO4)3, H2O
     //Al O H S
     left: ["Al(OH)<sub>3</sub>", [1,3,3,0], "H<sub>2</sub>SO<sub>4</sub>", [0,4,2,1]],
-    right: [ "Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>", [2,12,0,3], "H<sub>2</sub>O", [0,1,2,0]]
+    right: [ "Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>", [2,12,0,3], "H<sub>2</sub>O", [0,1,2,0]],
+    correct: [2, 3, 1, 6]
   },
   {
     //K2S2O7, Cr2O3 : K2SO<div class="formula">P<sub>4</sub> + 5 O<sub>2</sub> <img src="../../../img/strzalka.svg" height="15"> P<sub>4</sub>O<sub>10</sub></div>4, Cr2(SO4)3
     //K S O Cr
     left: ["K<sub>2</sub>S<sub>2</sub>O7", [2,2,7,0], "Cr<sub>2</sub>O<sub>3</sub>", [0,0,3,2]],
-    right: ["K<sub>2</sub>SO<sub>4</sub>",[2,1,4,0], "Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>", [0,3,12,2]]
+    right: ["K<sub>2</sub>SO<sub>4</sub>",[2,1,4,0], "Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>", [0,3,12,2]],
+    correct: [3, 1, 3, 1]
   },
   {
     //Mg, HBr : MgBr2, H2
     //Mg H Br
     left: ["Mg", [1,0,0], "HBr",[0,1,1]],
-    right: ["MgBr<sub>2</sub>", [1,0,2],"H<sub>2</sub>",[0,2,0]]
+    right: ["MgBr<sub>2</sub>", [1,0,2],"H<sub>2</sub>",[0,2,0]],
+    correct: [1, 2, 1, 1]
   },
   {
     //ZnO, HCl : ZnCl2, H2O
     // Zn O H Cl
     left: ["ZnO",[1,1,0,0], "HCl", [0,0,1,1]],
-    right: ["ZnCl<sub>2</sub>", [1,0,0,2],"H<sub>2</sub>O",[0,1,2,0]]
+    right: ["ZnCl<sub>2</sub>", [1,0,0,2],"H<sub>2</sub>O",[0,1,2,0]],
+    correct: [1, 2, 1, 1]
   },
   {
     //Cs, H2SO4 : Cs2SO4, H2
     //Cs H S O
     left: ["Cs", [1,0,0,0], "H<sub>2</sub>SO<sub>4</sub>", [0,2,1,4]],
-    right: ["Cs<sub>2</sub>SO<sub>4</sub>", [2,0,1,4], "H<sub>2</sub>", [0,2,0,0]]
+    right: ["Cs<sub>2</sub>SO<sub>4</sub>", [2,0,1,4], "H<sub>2</sub>", [0,2,0,0]],
+    correct: [2, 1, 1, 1]
   },
   {
     //Na2O, HCl : NaCl, H2O
     //Na O H Cl
     left: ["Na<sub>2</sub>O", [2,1,0,0], "HCl", [0,0,1,1]],
-    right: ["NaCl", [1,0,0,1], "H<sub>2</sub>O", [0,1,2,0]]
+    right: ["NaCl", [1,0,0,1], "H<sub>2</sub>O", [0,1,2,0]],
+    correct: [1, 2, 2, 1]
   },
   {
     //BaO, H3PO4 : Ba3(PO4)2, H2O
     //Ba O H P
     left: ["BaO", [1,1,0,0], "H<sub>3</sub>PO<sub>4</sub>",[0,4,3,1]],
-    right: ["Ba<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>", [3,8,0,2], "H<sub>2</sub>O", [0,1,2,0]]
+    right: ["Ba<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>", [3,8,0,2], "H<sub>2</sub>O", [0,1,2,0]],
+    correct: [3, 2, 1, 3]
   }
 
 ];
