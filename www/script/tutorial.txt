@@ -1,0 +1,3 @@
+Fe, O2 : Fe2O3
+P4, O2 : P4O10
+S, Al : Al2S3
